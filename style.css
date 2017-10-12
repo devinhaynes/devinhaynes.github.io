@@ -59,11 +59,11 @@ strong {
 
 table {
   border: 2px solid gray;
-
 }
 
 .main {
   background-image: url("./photos/fox.jpg");
+  background-size: cover;
   height: 800px;
   border: 5px solid gray;
   border-radius: 15px;
