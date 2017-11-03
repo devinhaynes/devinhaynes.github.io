@@ -64,7 +64,8 @@ table {
 .main {
   background-image: url("./photos/fox.jpg");
   background-size: cover;
-  height: 800px;
+  min-height: 1200px;
+  max-height: 1500px;
   border: 5px solid gray;
   border-radius: 15px;
   padding-left: 0;
@@ -72,13 +73,15 @@ table {
 }
 
 .main p {
+  max-height: 1000px;
   text-align: justify;
   text-indent: -30px;
   padding-left: 30px;
   font-size: 24px;
-  margin-left: 700px;
-  margin-right: 50px;
+  margin-left: 900px;
+  margin-right: 10px;
   background-color: rgba(255, 255, 255, 0.3);
+  overflow: auto;
 }
 
 .title {
@@ -104,7 +107,17 @@ table {
 .name-table {
   border: 5px solid gray;
   border-radius: 15px;
-  margin-left:
+}
+
+.next-page img {
+  max-width: 100%;
+}
+
+.next-page {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  margin-right: 10px;
 }
 
 #dorian {
@@ -119,7 +132,12 @@ table {
 
 #name {
   border-top: 2px solid gray;
-  border-bottom: 2px solid gray;
+  border-bottom: 3px double gray;
+}
+
+#name p {
+  position: absolute;
+  left: 50px;
 }
 
 #foxportrait {
